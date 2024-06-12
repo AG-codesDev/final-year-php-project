@@ -66,8 +66,7 @@
             /* border: 2px solid white; */
             padding: 14px;
             border-radius: 10px;
-            margin: 0 5px;
-
+            margin: 0 25px;
          
         }
 
@@ -75,15 +74,17 @@
             margin-bottom: 30px;
         }
         #admin{
-            background-color: yellow;
-            color: black;
+            background-color: red;
+            color: white;
         }
         #cashier{
             background-color: blue;
         }
         #customer{
-            background-color: red;
+            background-color: blue;
+            
         }
+       
     </style>
 </head>
 <body>
@@ -95,7 +96,7 @@
 
             <div class="links">
                 <a href="Restro/admin/" id="admin">Admin Log In</a>
-                <a href="Restro/cashier/" id="cashier">Staff Log In</a>
+                <!-- <a href="Restro/cashier/" id="cashier">Staff Log In</a> -->
                 <a href="Restro/customer" id="customer">Customer Log In</a>
             </div>
         </div>

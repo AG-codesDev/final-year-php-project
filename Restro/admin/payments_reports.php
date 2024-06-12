@@ -14,7 +14,7 @@ require_once('partials/_head.php');
     </style>
   </head>
 <body class="bg-dark">
-    <!-- Sidenav --><!-- For more projects: Visit codeastro.com  -->
+    <!-- Sidenav -->
     <?php
     require_once('partials/_sidebar.php');
     ?>
@@ -51,7 +51,7 @@ require_once('partials/_head.php');
                                         <th scope="col">Amount Paid</th>
                                         <th class="text-light" scope="col">Date Paid</th>
                                     </tr>
-                                </thead><!-- For more projects: Visit codeastro.com  -->
+                                </thead>
                                 <tbody>
                                     <?php
                                     $ret = "SELECT * FROM  rpos_payments ORDER BY `created_at` DESC ";
@@ -71,14 +71,14 @@ require_once('partials/_head.php');
                                                 <?php echo $payment->order_code; ?>
                                             </td>
                                             <td>
-                                                $ <?php echo $payment->pay_amt; ?>
+                                              ₹ <?php echo $payment->pay_amt; ?>
                                             </td>
                                             <td class="text-light">
                                                 <?php echo date('d/M/Y g:i', strtotime($payment->created_at)) ?>
                                             </td>
                                         </tr>
                                     <?php } ?>
-                                </tbody><!-- For more projects: Visit codeastro.com  -->
+                                </tbody>
                             </table>
                         </div>
                     </div>
@@ -95,5 +95,5 @@ require_once('partials/_head.php');
     require_once('partials/_scripts.php');
     ?>
 </body>
-<!-- For more projects: Visit codeastro.com  -->
+
 </html>

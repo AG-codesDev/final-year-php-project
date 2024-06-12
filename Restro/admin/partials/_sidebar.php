@@ -87,11 +87,11 @@ while ($admin = $res->fetch_object()) {
               💻 Dashboard
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="hrm.php">
             👷 Staff
             </a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="customes.php">
             🧑‍🤝‍🧑 Customers

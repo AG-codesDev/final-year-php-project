@@ -32,7 +32,7 @@ require_once('partials/_head.php');
         <div class="header-body">
         </div>
       </div>
-    </div><!-- For more projects: Visit codeastro.com  -->
+    </div>
     <!-- Page content -->
     <div class=" mt--8">
       <!-- Table -->
@@ -52,7 +52,7 @@ require_once('partials/_head.php');
                     <th scope="col"><b>Price</b></th>
                     <th scope="col"><b>Action</b></th>
                   </tr>
-                </thead><!-- For more projects: Visit codeastro.com  -->
+                </thead>
                 <tbody>
                   <?php
                   $ret = "SELECT * FROM  rpos_products ";
@@ -74,7 +74,7 @@ require_once('partials/_head.php');
                       </td>
                       <td><?php echo $prod->prod_code; ?></td>
                       <td><?php echo $prod->prod_name; ?></td>
-                      <td>$ <?php echo $prod->prod_price; ?></td>
+                      <td>₹ <?php echo $prod->prod_price; ?></td>
                       <td>
                         <a href="make_oder.php?prod_id=<?php echo $prod->prod_id; ?>&prod_name=<?php echo $prod->prod_name; ?>&prod_price=<?php echo $prod->prod_price; ?>">
                           <button class="btn btn-sm btn-warning">
@@ -102,5 +102,4 @@ require_once('partials/_head.php');
   require_once('partials/_scripts.php');
   ?>
 </body>
-<!-- For more projects: Visit codeastro.com  -->
 </html>

@@ -2,7 +2,6 @@
 
 **Database Name: rposystem**
 
-**Developed by Martin Mbithi Nzilani**
 
 **Recommended PHP Version 7.4**
 

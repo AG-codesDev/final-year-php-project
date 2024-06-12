@@ -71,7 +71,7 @@ require_once('partials/_head.php');
                                             <td class="text-light"><?php echo $order->prod_name; ?></td>
                                             <td>₹ <?php echo $order->prod_price; ?></td>
                                             <td class="text-light"><?php echo $order->prod_qty; ?></td>
-                                            <td>$ <?php echo $total; ?></td>
+                                            <td>₹ <?php echo $total; ?></td>
                                             <td><?php if ($order->order_status == '') {
                                                     echo "<span class='badge badge-danger text-white'>Not Paid</span>";
                                                 } else {
