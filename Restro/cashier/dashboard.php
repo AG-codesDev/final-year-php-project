@@ -111,7 +111,7 @@ require_once('partials/_analytics.php');
       <div class="row mt-5">
         <div class="col-xl-12 mb-5 mb-xl-0">
           <div class="card shadow">
-            <div class="card-header bg-info border-0">
+            <div class="card-header bg-warning border-0">
               <div class="row align-items-center">
                 <div class="col">
                   <h3 class="mb-0">Recent Orders</h3>
@@ -170,7 +170,7 @@ require_once('partials/_analytics.php');
       <div class="row mt-5">
         <div class="col-xl-12">
           <div class="card shadow">
-            <div class="card-header bg-info border-0">
+            <div class="card-header bg-warning border-0">
               <div class="row align-items-center">
                 <div class="col">
                   <h3 class="mb-0">Recent Payments</h3>

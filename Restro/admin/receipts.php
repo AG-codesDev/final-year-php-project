@@ -25,8 +25,8 @@ require_once('partials/_head.php');
         require_once('partials/_topnav.php');
         ?>
         <!-- Header -->
-        <div style="background-image: url(assets/img/theme/grocery-bg-2.jpg); background-size: cover;" class="header  pb-8 pt-5 pt-md-8">
-        <span class="mask bg-gradient-dark opacity-8"></span>
+        <div style="background-image: url(https://media.istockphoto.com/id/656453072/photo/vintage-retro-grungy-background-design-and-pattern-texture.jpg?s=612x612&w=0&k=20&c=PiX0bt3N6Hqk7yO7g52FWCunpjqm_9LhjRA2gkbl5z8=); background-size: cover;" class="header  pb-8 pt-5 pt-md-8">
+        <span class=""></span>
             <div class="">
                 <div class="header-body">
                 </div>
@@ -38,7 +38,7 @@ require_once('partials/_head.php');
             <div class="row">
                 <div class="col">
                     <div class="card shadow">
-                        <div class="card-header bg-info text-dark border-0">
+                        <div class="card-header bg-warning text-dark border-0">
                             Paid Orders
                         </div>
                         <div class="table-responsive">

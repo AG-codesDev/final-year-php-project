@@ -52,7 +52,7 @@ require_once('partials/_head.php');
     while ($staff = $res->fetch_object()) {
     ?>
       <!-- Header -->
-      <div style="background-image: url(assets/img/theme/grocery-bg-2.jpg); background-size: cover;" class="header  pb-8 pt-5 pt-md-8">
+      <div style="background-image: url(https://media.istockphoto.com/id/656453072/photo/vintage-retro-grungy-background-design-and-pattern-texture.jpg?s=612x612&w=0&k=20&c=PiX0bt3N6Hqk7yO7g52FWCunpjqm_9LhjRA2gkbl5z8=); background-size: cover;" class="header  pb-8 pt-5 pt-md-8">
       <span class="mask"></span>
         <div class="container-fluid">
           <div class="header-body">
@@ -65,7 +65,7 @@ require_once('partials/_head.php');
         <div class="row">
           <div class="col">
             <div class="card bg-dark shadow">
-              <div class="card-header bg-info border-0">
+              <div class="card-header bg-warning border-0">
                 <h3>Please Fill All Fields</h3>
               </div>
               <div class="card-body">

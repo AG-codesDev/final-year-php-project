@@ -6,102 +6,79 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     <title>Grocery Management System</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
     <!-- Styles -->
     <style>
-        html,
-        body {
-            background-color: black;
-            color: white;
+        html, body {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #f0f0f0;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
             height: 100vh;
             margin: 0;
-        }
-
-        .full-height {
-            height: 100vh;
-        }
-
-        .flex-center {
-            align-items: center;
             display: flex;
+            align-items: center;
             justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
         }
 
         .content {
             text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
 
         .title {
             font-size: 84px;
-            font-weight: 100;
-            /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
             font-family: "Tilt Prism", sans-serif;
+            margin-bottom: 30px;
         }
 
-        .links>a {
-            color: white;
-            padding: 0 25px;
-            font-size: 13px;
+        .links > a {
+            color: #f0f0f0;
+            padding: 14px 30px;
+            font-size: 15px;
             font-weight: 900;
             letter-spacing: .1rem;
             text-decoration: none;
             text-transform: uppercase;
-            /* border: 2px solid white; */
-            padding: 14px;
-            border-radius: 10px;
-            margin: 0 25px;
-         
+            border-radius: 25px;
+            margin: 0 15px;
+            transition: background-color 0.3s, transform 0.3s;
         }
 
-        .m-b-md {
-            margin-bottom: 30px;
+        .links > a#admin {
+            background-color: #e74c3c;
         }
-        #admin{
-            background-color: red;
-            color: white;
+
+        .links > a#cashier {
+            background-color: #f1c40f;
+            color: #333;
         }
-        #cashier{
-            background-color: yellow;
-            color:black;
+
+        .links > a#customer {
+            background-color: #3498db;
         }
-        #customer{
-            background-color: blue;
-            
+
+        .links > a:hover {
+            transform: scale(1.1);
         }
-       
     </style>
 </head>
 <body>
-    <div class="flex-center position-ref full-height">
-        <div class="content">
-            <div class="title m-b-md">
-               Grocery Sales Management
-            </div>
-
-            <div class="links">
-                <a href="Restro/admin/" id="admin">Admin Log In</a>
-                <a href="Restro/cashier/" id="cashier">Staff Log In</a>
-                <a href="Restro/customer" id="customer">Customer Log In</a>
-            </div>
+    <div class="content">
+        <div class="title">
+            Grocery Sales Management
+        </div>
+        <div class="links">
+            <a href="Restro/admin/" id="admin">Admin Log In</a>
+            <a href="Restro/cashier/" id="cashier">Staff Log In</a>
+            <a href="Restro/customer" id="customer">Customer Log In</a>
         </div>
     </div>
 </body>
-
 </html>

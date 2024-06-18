@@ -7964,15 +7964,15 @@ button.bg-success:focus
     background-color: #24a46d !important;
 }
 
-.bg-info
+.bg-warning
 {
     background-color: #11cdef !important;
 }
 
-a.bg-info:hover,
-a.bg-info:focus,
-button.bg-info:hover,
-button.bg-info:focus
+a.bg-warning:hover,
+a.bg-warning:focus,
+button.bg-warning:hover,
+button.bg-warning:focus
 {
     background-color: #0da5c0 !important;
 }

@@ -76,7 +76,7 @@ if (isset($_POST['changePassword'])) {
 require_once('partials/_head.php');
 ?>
 
-<body>
+<body class="bg-dark">
   <!-- Sidenav -->
   <?php
   require_once('partials/_sidebar.php');
@@ -95,9 +95,9 @@ require_once('partials/_head.php');
     while ($admin = $res->fetch_object()) {
     ?>
       <!-- Header -->
-      <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="min-height: 600px; background-image: url(assets/img/theme/restro00.jpg); background-size: cover; background-position: center top;">
+      <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="min-height: 600px; background-image: url(https://media.istockphoto.com/id/656453072/photo/vintage-retro-grungy-background-design-and-pattern-texture.jpg?s=612x612&w=0&k=20&c=PiX0bt3N6Hqk7yO7g52FWCunpjqm_9LhjRA2gkbl5z8=); background-size: cover; background-position: center top;">
         <!-- Mask -->
-        <span class="mask bg-gradient-default opacity-8"></span>
+        <span class=""></span>
         <!-- Header container -->
         <div class="container-fluid d-flex align-items-center">
           <div class="row">
@@ -122,14 +122,14 @@ require_once('partials/_head.php');
                   </div>
                 </div>
               </div>
-              <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
+              <div class="card-header bg-dark text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
                 <div class="d-flex justify-content-between">
                 </div>
               </div>
-              <div class="card-body pt-0 pt-md-4">
+              <div class="card-body bg-dark pt-0 pt-md-4">
                 <div class="row">
                   <div class="col">
-                    <div class="card-profile-stats d-flex justify-content-center mt-md-5">
+                    <div class="card-profile-stats bg-dark d-flex justify-content-center mt-md-5">
                       <div>
                       </div>
                       <div>
@@ -140,10 +140,10 @@ require_once('partials/_head.php');
                   </div>
                 </div>
                 <div class="text-center">
-                  <h3>
+                  <h3 class="text-secondary">
                     <?php echo $admin->admin_name; ?></span>
                   </h3>
-                  <div class="h5 font-weight-300">
+                  <div class="h5 text-secondary font-weight-300">
                     <i class="ni location_pin mr-2"></i><?php echo $admin->admin_email; ?>
                   </div>
                 </div>
@@ -151,11 +151,11 @@ require_once('partials/_head.php');
             </div>
           </div>
           <div class="col-xl-8 order-xl-1">
-            <div class="card bg-secondary shadow">
-              <div class="card-header bg-white border-0">
+            <div class="card bg-dark shadow">
+              <div class="card-header bg-dark border-0">
                 <div class="row align-items-center">
                   <div class="col-8">
-                    <h3 class="mb-0">My account</h3>
+                    <h3 class="mb-0 text-secondary">My account</h3>
                   </div>
                   <div class="col-4 text-right">
                   </div>
@@ -168,20 +168,20 @@ require_once('partials/_head.php');
                     <div class="row">
                       <div class="col-lg-6">
                         <div class="form-group">
-                          <label class="form-control-label" for="input-username">User Name</label>
-                          <input type="text" name="admin_name" value="<?php echo $admin->admin_name; ?>" id="input-username" class="form-control form-control-alternative" ">
+                          <label class="form-control-label text-secondary" for="input-username">User Name</label>
+                          <input type="text" name="admin_name" value="<?php echo $admin->admin_name; ?>" id="input-username" class="form-control text-dark form-control-alternative" ">
                       </div>
                     </div>
                     <div class=" col-lg-6">
                           <div class="form-group">
-                            <label class="form-control-label" for="input-email">Email address</label>
-                            <input type="email" id="input-email" value="<?php echo $admin->admin_email; ?>" name="admin_email" class="form-control form-control-alternative">
+                            <label class="form-control-label text-secondary" for="input-email">Email address</label>
+                            <input type="email" id="input-email" value="<?php echo $admin->admin_email; ?>" name="admin_email" class="form-control text-dark form-control-alternative">
                           </div>
                         </div>
 
                         <div class="col-lg-12">
                           <div class="form-group">
-                            <input type="submit" id="input-email" name="ChangeProfile" class="btn btn-success form-control-alternative" value="Submit"">
+                            <input type="submit" id="input-email" name="ChangeProfile" class="btn btn-danger form-control-alternative" value="Submit"">
                       </div>
                     </div>
                   </div>
@@ -194,28 +194,28 @@ require_once('partials/_head.php');
                               <div class="row">
                                 <div class="col-lg-12">
                                   <div class="form-group">
-                                    <label class="form-control-label" for="input-username">Old Password</label>
-                                    <input type="password" name="old_password" id="input-username" class="form-control form-control-alternative">
+                                    <label class="form-control-label text-secondary" for="input-username">Old Password</label>
+                                    <input type="password" name="old_password" id="input-username" class="form-control text-dark form-control-alternative">
                                   </div>
                                 </div>
 
                                 <div class="col-lg-12">
                                   <div class="form-group">
-                                    <label class="form-control-label" for="input-email">New Password</label>
-                                    <input type="password" name="new_password" class="form-control form-control-alternative">
+                                    <label class="form-control-label text-secondary" for="input-email">New Password</label>
+                                    <input type="password" name="new_password" class="form-control form-control-alternative text-dark">
                                   </div>
                                 </div>
 
                                 <div class="col-lg-12">
                                   <div class="form-group">
-                                    <label class="form-control-label" for="input-email">Confirm New Password</label>
+                                    <label class="form-control-label text-secondary" for="input-email">Confirm New Password</label>
                                     <input type="password" name="confirm_password" class="form-control form-control-alternative">
                                   </div>
                                 </div>
 
                                 <div class="col-lg-12">
                                   <div class="form-group">
-                                    <input type="submit" id="input-email" name="changePassword" class="btn btn-success form-control-alternative" value="Change Password">
+                                    <input type="submit" id="input-email" name="changePassword" class="btn btn-danger form-control-alternative" value="Change Password">
                                   </div>
                                 </div>
                               </div>

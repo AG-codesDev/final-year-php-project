@@ -26,6 +26,7 @@ require_once('partials/_head.php');
     <style>
     body{
       background-color: #E5E5E5;
+      
 
     }
     .heading{

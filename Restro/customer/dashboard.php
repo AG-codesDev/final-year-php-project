@@ -107,7 +107,7 @@ require_once('partials/_analytics.php');
             <div class="single-card">
             <div class="inside-card">
               <span class="">Total Money Spend</span>
-              <span class="numbers numbers"><?php echo $products; ?></span>
+              <span class="numbers numbers">₹<?php echo $products; ?></span>
             </div>
             <div class="logo-money">
             <i class="fas fa-rupee-sign"></i>
@@ -125,10 +125,10 @@ require_once('partials/_analytics.php');
       <div class="row mt-5">
         <div class="col-xl-12 mb-5 mb-xl-0">
           <div class="card shadow">
-            <div class="card-header bg-info border-0">
+            <div class="card-header bg-warning border-0">
               <div class="row align-items-center">
                 <div class="col">
-                  <h3 class="mb-0">Recent Orders</h3>
+                  <h3 class="mb-0 text-dark">Recent Orders</h3>
                 </div>
                 <div class="col text-right">
                   <a href="orders_reports.php" class="btn btn-sm btn-danger">See all</a>
@@ -186,10 +186,10 @@ require_once('partials/_analytics.php');
       <div class="row mt-5">
         <div class="col-xl-12">
           <div class="card shadow">
-            <div class="card-header bg-info border-0">
+            <div class="card-header bg-warning border-0">
               <div class="row align-items-center">
                 <div class="col">
-                  <h3 class="mb-0">My Recent Payments</h3>
+                  <h3 class="mb-0 text-dark">My Recent Payments</h3>
                 </div>
                 <div class="col text-right">
                   <a href="payments_reports.php" class="btn btn-sm btn-danger">See all</a>
