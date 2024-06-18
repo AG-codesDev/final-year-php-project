@@ -67,7 +67,7 @@ require_once('partials/_head.php');
                                         <th scope="col">Action</th>
                                     </tr>
                                 </thead>
-                                <tbody><!-- For more projects: Visit codeastro.com  -->
+                                <tbody>
                                     <?php
                                     $ret = "SELECT * FROM  rpos_products  ORDER BY `rpos_products`.`created_at` DESC ";
                                     $stmt = $mysqli->prepare($ret);
@@ -101,7 +101,7 @@ require_once('partials/_head.php');
                                     <?php } ?>
                                 </tbody>
                             </table>
-                        </div><!-- For more projects: Visit codeastro.com  -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,5 +116,5 @@ require_once('partials/_head.php');
     require_once('partials/_scripts.php');
     ?>
 </body>
-<!-- For more projects: Visit codeastro.com  -->
+
 </html>

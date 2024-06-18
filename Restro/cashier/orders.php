@@ -91,7 +91,7 @@ require_once('partials/_head.php');
             </div>
           </div>
         </div>
-      </div><!-- For more projects: Visit codeastro.com  -->
+      </div>
       <!-- Footer -->
       <?php
       require_once('partials/_footer.php');
@@ -103,5 +103,5 @@ require_once('partials/_head.php');
   require_once('partials/_scripts.php');
   ?>
 </body>
-<!-- For more projects: Visit codeastro.com  -->
+
 </html>

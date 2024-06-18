@@ -73,7 +73,7 @@ require_once('partials/_head.php');
               <h1 class="heading">Grocery Sales Management</h1>
               <h2 class="customer-login-heading">STAFF LOGIN</h2>
             </div>
-          </div><!-- For more projects: Visit codeastro.com  -->
+          </div>
         </div>
       </div>
     </div>
@@ -106,7 +106,7 @@ require_once('partials/_head.php');
                   <label class="custom-control-label" for=" customCheckLogin">
                     <span class="text-muted">Remember me</span>
                   </label>
-                </div><!-- For more projects: Visit codeastro.com  -->
+                </div>
                 <div class="text-center">
                   <button type="submit" name="login" class="btn btn-danger my-4">Log In</button>
                 </div>
@@ -121,7 +121,7 @@ require_once('partials/_head.php');
           </div>
         </div>
       </div>
-    </div><!-- For more projects: Visit codeastro.com  -->
+    </div>
   </div>
   <!-- Footer -->
   <?php
@@ -132,5 +132,5 @@ require_once('partials/_head.php');
   require_once('partials/_scripts.php');
   ?>
 </body>
-<!-- For more projects: Visit codeastro.com  -->
+
 </html>

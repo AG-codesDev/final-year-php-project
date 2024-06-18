@@ -85,7 +85,7 @@ require_once('partials/_head.php');
                                         </tr>
                                     <?php } ?>
                                 </tbody>
-                            </table><!-- For more projects: Visit codeastro.com  -->
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -101,5 +101,5 @@ require_once('partials/_head.php');
     require_once('partials/_scripts.php');
     ?>
 </body>
-<!-- For more projects: Visit codeastro.com  -->
+
 </html>

@@ -57,7 +57,7 @@ require_once('partials/_head.php');
               <a href="add_product.php" class="btn btn-outline-dark">
                 <i class="fas fa-utensils"></i>
                 Add New Product
-              </a><!-- For more projects: Visit codeastro.com  -->
+              </a>
             </div>
             <div class="table-responsive">
               <table class="table align-items-center table-flush">
@@ -107,7 +107,7 @@ require_once('partials/_head.php');
                           </button>
                         </a>
                       </td>
-                    </tr><!-- For more projects: Visit codeastro.com  -->
+                    </tr>
                   <?php } ?>
                 </tbody>
               </table>
@@ -126,5 +126,5 @@ require_once('partials/_head.php');
   require_once('partials/_scripts.php');
   ?>
 </body>
-<!-- For more projects: Visit codeastro.com  -->
+
 </html>

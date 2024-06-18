@@ -8,7 +8,7 @@ check_login();
 
 if (isset($_POST['pay'])) {
   //Prevent Posting Blank Values
-  //Visit codeastro.com for more projects
+  
   if (empty($_POST["pay_code"]) || empty($_POST["pay_amt"]) || empty($_POST['pay_method'])) {
     $err = "Blank Values Not Accepted";
   } else {
@@ -77,7 +77,7 @@ require_once('partials/_head.php');
     <!-- Page content -->
     <div class="container-fluid mt--8">
       <!-- Table -->
-      <div class="row"><!-- For more projects: Visit codeastro.com  -->
+      <div class="row">
         <div class="col">
           <div class="card shadow">
             <div class="card-header border-0">
@@ -109,7 +109,7 @@ require_once('partials/_head.php');
                     </select>
                   </div>
                 </div>
-                <br><!-- For more projects: Visit codeastro.com  -->
+                <br>
                 <div class="form-row">
                   <div class="col-md-6">
                     <input type="submit" name="pay" value="Pay Order" class="btn btn-success" value="">
@@ -131,5 +131,5 @@ require_once('partials/_head.php');
   require_once('partials/_scripts.php'); }
   ?>
 </body>
-<!-- For more projects: Visit codeastro.com  -->
+
 </html>
