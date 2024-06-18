@@ -79,7 +79,7 @@ require_once('partials/_analytics.php');
     require_once('partials/_topnav.php');
     ?>
     <!-- Header -->
-    <div style="background-image: url(../admin/assets/img/theme/grocery-bg-2.jpg); background-size: cover;" class="header  pb-8 pt-5 pt-md-8">
+    <div style="background-image: url(https://media.istockphoto.com/id/656453072/photo/vintage-retro-grungy-background-design-and-pattern-texture.jpg?s=612x612&w=0&k=20&c=PiX0bt3N6Hqk7yO7g52FWCunpjqm_9LhjRA2gkbl5z8=); background-size: cover;" class="header  pb-8 pt-5 pt-md-8">
       <span class="mask opacity-8"></span>
       <div class="">
         <div class="header-body">
@@ -165,9 +165,9 @@ require_once('partials/_analytics.php');
                       <th class="text-secondary" scope="row"><?php echo $order->order_code; ?></th>
                       <td class="text-light"><?php echo $order->customer_name; ?></td>
                       <td class="text-secondary"><?php echo $order->prod_name; ?></td>
-                      <td class="text-light">$<?php echo $order->prod_price; ?></td>
+                      <td class="text-light">₹<?php echo $order->prod_price; ?></td>
                       <td class="text-secondary"><?php echo $order->prod_qty; ?></td>
-                      <td class="text-light">$<?php echo $total; ?></td>
+                      <td class="text-light">₹<?php echo $total; ?></td>
                       <td><?php if ($order->order_status == '') {
                             echo "<span class='badge badge-danger text-secondary'>Not Paid</span>";
                           } else {
@@ -219,7 +219,7 @@ require_once('partials/_analytics.php');
                         <?php echo $payment->pay_code; ?>
                       </th>
                       <td class="text-light">
-                        $<?php echo $payment->pay_amt; ?>
+                        ₹<?php echo $payment->pay_amt; ?>
                       </td>
                       <td class='text-secondary'>
                         <?php echo $payment->order_code; ?>

@@ -71,7 +71,7 @@ require_once('partials/_head.php');
                                             <td class="text-light"><?php echo $order->prod_name; ?></td>
                                             <td>₹ <?php echo $order->prod_price; ?></td>
                                             <td class="text-light"><?php echo $order->prod_qty; ?></td>
-                                            <td>$ <?php echo $total; ?></td>
+                                            <td>₹ <?php echo $total; ?></td>
                                             <td><?php echo date('d/M/Y g:i', strtotime($order->created_at)); ?></td>
                                             <td>
                                                 <a target="_blank" href="print_receipt.php?order_code=<?php echo $order->order_code; ?>">

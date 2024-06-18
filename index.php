@@ -78,7 +78,8 @@
             color: white;
         }
         #cashier{
-            background-color: blue;
+            background-color: yellow;
+            color:black;
         }
         #customer{
             background-color: blue;
@@ -96,7 +97,7 @@
 
             <div class="links">
                 <a href="Restro/admin/" id="admin">Admin Log In</a>
-                <!-- <a href="Restro/cashier/" id="cashier">Staff Log In</a> -->
+                <a href="Restro/cashier/" id="cashier">Staff Log In</a>
                 <a href="Restro/customer" id="customer">Customer Log In</a>
             </div>
         </div>

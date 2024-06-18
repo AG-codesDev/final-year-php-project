@@ -32,7 +32,6 @@ require_once('partials/_head.php');
     <?php
     require_once('partials/_sidebar.php');
     ?>
-    <!-- Main content --><!-- For more projects: Visit codeastro.com  -->
     <div class="main-content bg-dark">
         <!-- Top navbar -->
         <?php
@@ -45,7 +44,7 @@ require_once('partials/_head.php');
                 <div class="header-body">
                 </div>
             </div>
-        </div><!-- For more projects: Visit codeastro.com  -->
+        </div>
         <!-- Page content -->
         <div class=" mt--8">
             <!-- Table -->
@@ -57,7 +56,7 @@ require_once('partials/_head.php');
                                 <i class="fas fa-plus"></i> <i class="fas fa-utensils"></i>
                                 Make A New Order
                             </a>
-                        </div><!-- For more projects: Visit codeastro.com  -->
+                        </div>
                         <div class="table-responsive">
                             <table class="table align-items-center table-flush">
                                 <thead class="thead text-secondary">
@@ -108,7 +107,7 @@ require_once('partials/_head.php');
                         </div>
                     </div>
                 </div>
-            </div><!-- For more projects: Visit codeastro.com  -->
+            </div>
             <!-- Footer -->
             <?php
             require_once('partials/_footer.php');
@@ -120,5 +119,4 @@ require_once('partials/_head.php');
     require_once('partials/_scripts.php');
     ?>
 </body>
-<!-- For more projects: Visit codeastro.com  -->
 </html>

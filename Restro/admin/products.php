@@ -27,8 +27,9 @@ require_once('partials/_head.php');
       }
     </style>
   </head>
+
 <body class="bg-dark">
-  <!-- Sidenav --><!-- For more projects: Visit codeastro.com  -->
+  <!-- Sidenav -->
   <?php
   require_once('partials/_sidebar.php');
   ?>
@@ -68,7 +69,7 @@ require_once('partials/_head.php');
                     <th scope="col">Price</th>
                     <th scope="col">Actions</th>
                   </tr>
-                </thead><!-- For more projects: Visit codeastro.com  -->
+                </thead>
                 <tbody>
                   <?php
                   $ret = "SELECT * FROM  rpos_products ";

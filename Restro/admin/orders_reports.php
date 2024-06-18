@@ -14,7 +14,7 @@ require_once('partials/_head.php');
     </style>
   </head>
 <body class="bg-dark">
-    <!-- Sidenav --><!-- For more projects: Visit codeastro.com  -->
+
     <?php
     require_once('partials/_sidebar.php');
     ?>

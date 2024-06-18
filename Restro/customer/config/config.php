@@ -3,6 +3,6 @@
 $dbuser = "root";
 $dbpass = "";
 $host = "localhost";
-$db = "rposystem";
+$db = "grocery_management";
 $mysqli = new mysqli($host, $dbuser, $dbpass, $db);
 ?>

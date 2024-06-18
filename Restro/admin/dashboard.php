@@ -86,7 +86,7 @@ require_once('partials/_analytics.php');
     require_once('partials/_topnav.php');
     ?>
     <!-- Header -->
-    <div style="background-image: url(assets/img/theme/grocery-bg-2.jpg); background-size: cover;" class="header  pb-8 pt-5 pt-md-8">
+    <div style="background-image: url(https://media.istockphoto.com/id/656453072/photo/vintage-retro-grungy-background-design-and-pattern-texture.jpg?s=612x612&w=0&k=20&c=PiX0bt3N6Hqk7yO7g52FWCunpjqm_9LhjRA2gkbl5z8=); background-size: cover;" class="header  pb-8 pt-5 pt-md-8">
       <span class="mask opacity-8"></span>
       <div class="">
         <div class="header-body">
@@ -127,7 +127,7 @@ require_once('partials/_analytics.php');
           <div class="single-card">
             <div class="inside-card">
               <span>SALES</span>
-              <span class="numbers"><?php echo $sales; ?></span>
+              <span class="numbers">₹ <?php echo $sales; ?></span>
             </div>
             <div class="logo-sales">
             <i class="fas fa-rupee-sign"></i>
